@@ -8,7 +8,7 @@
 </head>
 <body>
     <!-- Header section -->
-    <div class="header-container">
+    <div id="header-container">
         <!-- Header top -->
         <div class="header-nav-container">
             <div class="header-logo">
@@ -16,9 +16,9 @@
             </div>
             <nav>
                 <ul class="header-links">
-                    <li><a href="about">About</a></li>
-                    <li><a href="products">Products</a></li>
-                    <li><a href="news">News</a></li>
+                    <li><a href="#header-container">About</a></li>
+                    <li><a href="#info-container">Products</a></li>
+                    <li><a href="#signup-container">News</a></li>
                 </ul>
             </nav>
         </div>
@@ -26,7 +26,9 @@
         <div class="header-body">
             <div class="header-wrap">
                 <div class="header-title">This website is awsome</div>
-                <div class="header-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur cum dolorum error sit? Nam temporibus sapiente qui in beatae perspiciatis ipsum, ea minus possimus ab eum maxime unde. Perferendis, natus!</div>
+                <div class="header-text"> Your premier destination for all things numismatic. 
+                    Explore our coin marketplace for rare treasures, access a comprehensive database for historical insights, restore your precious coins to perfection, and discover investment opportunities that shine in your portfolio. 
+                </div>
                 <button class="btn-header">Sign up</button>
             </div>    
             <div class="image-placeholder">
@@ -36,46 +38,52 @@
     </div>
 
     <!-- Information section -->
-    <div class="info-container">
+    <div id="info-container">
 
-        <div class="info-title">Some random information</div>
+        <div class="info-title">Information about our services</div>
         <div class="info-body">
             <div class="info">
-                <img />
-                <div class="info-text"></div>
+                <img class="info-img" src="./images/coin-market.jpg" alt="Banknote and coin in shoping cart"/>
+                <div class="info-text">Marketplace</div>
             </div>
+            
             <div class="info">
-                <img />
-                <div class="info-text"></div>
+                <img class="info-img" src="./images/coin-database.jpg" alt="Looking through magnifying glass at map made of coins"/>
+                <div class="info-text">Catalog and Database</div>
             </div>
+            
             <div class="info">
-                <img />
-                <div class="info-text"></div>
+                <img class="info-img" src="./images/coin-restor.jpg" alt="Old coins"/>
+                <div class="info-text">Cleaning and Restoration</div>
             </div>
+            
             <div class="info">
-                <img />
-                <div class="info-text"></div>
+                <img class="info-img" src="./images/coin-invest.jpg" alt="Black piggy bank with coins around it"/>
+                <div class="info-text">Investments</div>
             </div>
         </div>
     </div>
 
     <!-- Quote section -->
     <div class="quote-container">
-        <div class="quote-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi laboriosam, neque explicabo pariatur ipsam, quibusdam earum ipsum possimus cupiditate dolores modi et aut blanditiis accusamus porro? Similique quasi voluptatibus soluta.</div>
-        <div class="quote-author">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        <div class="quote-text">Collecting coins is like traveling through time, with each coin telling a different story from the past.</div>
+        <div class="quote-author">- Susan Headley</div>
     </div>
 
     <!-- Sign up section -->
-    <div class="signup-container">
-        <div class="signup-title">Call to action! It's time!</div>
-        <div class="signup-text">Sign up for our product by clicking that button right over there!</div>
-        <button>Sign up</button>
+    <div id="signup-container">
+        <div class="signup-body">
+            <div class="signup-title">Call to action! It's time!</div>
+            <div class="signup-text">Sign up for our services by clicking that button right over there!</div> 
+        </div>
+        <div>
+            <button class="btn-signup">Sign up</button>
+        </div>
     </div>
 
     <!-- Footer section -->
     <footer>
         <div>Copyright © The Odin Project 2023</div>
     </footer>
-    
 </body>
 </html>
